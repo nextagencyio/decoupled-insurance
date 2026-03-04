@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeResources": {
+      "__typename": "NodeResourceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeResource",
+          "id": "resource-home-inventory",
+          "title": "How to Create a Home Inventory",
+          "path": "/resources/home-inventory-guide",
+          "body": {
+            "processed": "<p>A home inventory is essential for filing insurance claims accurately and quickly. Follow this guide to document your belongings before disaster strikes.</p><h2>Room-by-Room Approach</h2><ul><li>Photograph or video each room</li><li>Record serial numbers for electronics</li><li>Keep receipts for high-value items</li><li>Store your inventory in the cloud or a safe deposit box</li></ul><p>Update your inventory annually or after major purchases.</p>",
+            "summary": "A home inventory is essential for filing insurance claims accurately and quickly. Follow this guide to document your belongings before disaster strikes.Room-by-Room ApproachPhotograph or video each ro"
+          },
+          "resourceCategory": "Home Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80",
+            "alt": "Organized home interior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-auto-claims",
+          "title": "What to Do After a Car Accident",
+          "path": "/resources/auto-claims-process",
+          "body": {
+            "processed": "<p>Knowing what to do after an accident can make the claims process smoother and protect your rights. Follow these steps immediately after a collision.</p><h2>At the Scene</h2><ul><li>Check for injuries and call 911 if needed</li><li>Exchange information with other drivers</li><li>Take photos of damage and the scene</li><li>Get a police report</li></ul><h2>Filing Your Claim</h2><p>Contact Ironclad within 24 hours. Have your policy number, photos, and the police report ready. We will guide you through every step.</p>",
+            "summary": "Knowing what to do after an accident can make the claims process smoother and protect your rights. Follow these steps immediately after a collision.At the SceneCheck for injuries and call 911 if neede"
+          },
+          "resourceCategory": "Auto Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Car safety concept",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResource",
+          "id": "resource-life-coverage",
+          "title": "How Much Life Insurance Do You Need?",
+          "path": "/resources/how-much-life-insurance",
+          "body": {
+            "processed": "<p>Determining the right amount of life insurance depends on your income, debts, dependents, and financial goals. Here are common approaches to help you decide.</p><h2>The 10x Rule</h2><p>A simple starting point: aim for coverage equal to 10 times your annual income.</p><h2>DIME Method</h2><ul><li><strong>D</strong>ebt - Total outstanding debts</li><li><strong>I</strong>ncome - Years of income to replace</li><li><strong>M</strong>ortgage - Remaining mortgage balance</li><li><strong>E</strong>ducation - Future education costs for children</li></ul><p>Our agents can help you calculate the right amount for your specific situation.</p>",
+            "summary": "Determining the right amount of life insurance depends on your income, debts, dependents, and financial goals. Here are common approaches to help you decide.The 10x RuleA simple starting point: aim fo"
+          },
+          "resourceCategory": "Life Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Family financial planning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

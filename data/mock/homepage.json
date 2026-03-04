@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Ironclad Insurance Group Homepage",
+          "path": "/homepage",
+          "heroTitle": "Coverage You Can Trust",
+          "heroSubtitle": "Ironclad Insurance Group",
+          "heroDescription": {
+            "processed": "<p>From home and auto to life and business, Ironclad Insurance Group provides comprehensive coverage with personalized service and competitive rates. We protect what matters most to you.</p>",
+            "summary": "From home and auto to life and business, Ironclad Insurance Group provides comprehensive coverage with personalized service and competitive rates. We protect what matters most to you."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "50,000+",
+              "label": "Policyholders"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "97%",
+              "label": "Claims Satisfaction"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "24/7",
+              "label": "Claims Support"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "30+",
+              "label": "Years Serving Families"
+            }
+          ],
+          "featuredItemsTitle": "Our Coverage Options",
+          "ctaTitle": "Get Your Free Quote Today",
+          "ctaDescription": {
+            "processed": "<p>Our licensed agents will review your needs and find the right coverage at the best price. No obligation, no pressure - just honest advice.</p>",
+            "summary": "Our licensed agents will review your needs and find the right coverage at the best price. No obligation, no pressure - just honest advice."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "Our Products"
+        }
+      ]
+    }
+  }
+}

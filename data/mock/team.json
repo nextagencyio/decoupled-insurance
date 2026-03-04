@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-david",
+          "title": "David Hartwell",
+          "path": "/team/david-hartwell",
+          "body": {
+            "processed": "<p>David founded Ironclad Insurance Group with a simple mission: make insurance understandable and affordable for every family. With 30 years in the industry, he leads our team with a client-first philosophy and deep knowledge of the insurance landscape.</p>",
+            "summary": "David founded Ironclad Insurance Group with a simple mission: make insurance understandable and affordable for every family. With 30 years in the industry, he leads our team with a client-first philos"
+          },
+          "position": "President & Founder",
+          "email": "david@ironcladins.com",
+          "phone": "(555) 345-6789",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+            "alt": "David Hartwell, President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-lisa",
+          "title": "Lisa Park",
+          "path": "/team/lisa-park",
+          "body": {
+            "processed": "<p>Lisa manages our claims department, ensuring every client receives prompt, fair service during difficult times. She has processed thousands of claims and knows how to advocate for our clients with carriers.</p>",
+            "summary": "Lisa manages our claims department, ensuring every client receives prompt, fair service during difficult times. She has processed thousands of claims and knows how to advocate for our clients with car"
+          },
+          "position": "Claims Director",
+          "email": "lisa@ironcladins.com",
+          "phone": "(555) 345-6790",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+            "alt": "Lisa Park, Claims Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Johnson",
+          "path": "/team/marcus-johnson",
+          "body": {
+            "processed": "<p>Marcus specializes in commercial insurance and works closely with business owners to identify risks and build comprehensive coverage packages. His industry knowledge helps clients avoid costly coverage gaps.</p>",
+            "summary": "Marcus specializes in commercial insurance and works closely with business owners to identify risks and build comprehensive coverage packages. His industry knowledge helps clients avoid costly coverag"
+          },
+          "position": "Senior Commercial Agent",
+          "email": "marcus@ironcladins.com",
+          "phone": "(555) 345-6791",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+            "alt": "Marcus Johnson, Senior Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

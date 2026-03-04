@@ -1,0 +1,161 @@
+{
+  "data": {
+    "nodeProducts": {
+      "__typename": "NodeProductConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProduct",
+          "id": "product-home",
+          "title": "Homeowners Insurance",
+          "path": "/products/homeowners-insurance",
+          "body": {
+            "processed": "<p>Protect your biggest investment with our comprehensive homeowners insurance. Our policies cover your dwelling, personal property, liability, and additional living expenses if your home becomes uninhabitable.</p><h2>Coverage Includes</h2><ul><li>Dwelling protection for your home's structure</li><li>Personal property coverage for belongings</li><li>Liability protection if someone is injured on your property</li><li>Additional living expenses during repairs</li><li>Optional flood and earthquake riders</li></ul><h2>Discounts Available</h2><p>Bundle with auto insurance, install security systems, or maintain a claims-free record to save on your premium.</p>",
+            "summary": "Protect your biggest investment with our comprehensive homeowners insurance. Our policies cover your dwelling, personal property, liability, and additional living expenses if your home becomes uninhab"
+          },
+          "coverageType": "Property",
+          "premiumRange": "$75 - $250/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Beautiful home exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProduct",
+          "id": "product-auto",
+          "title": "Auto Insurance",
+          "path": "/products/auto-insurance",
+          "body": {
+            "processed": "<p>Get the auto coverage you need at a price you can afford. Our auto insurance policies provide comprehensive protection for your vehicle, whether you are commuting, traveling, or running errands.</p><h2>Coverage Options</h2><ul><li>Liability coverage (bodily injury and property damage)</li><li>Collision coverage</li><li>Comprehensive coverage (theft, weather, vandalism)</li><li>Uninsured/underinsured motorist protection</li><li>Roadside assistance and rental car reimbursement</li></ul><h2>Save More</h2><p>Good driver discounts, multi-vehicle savings, and bundling options help keep your rates low.</p>",
+            "summary": "Get the auto coverage you need at a price you can afford. Our auto insurance policies provide comprehensive protection for your vehicle, whether you are commuting, traveling, or running errands.Covera"
+          },
+          "coverageType": "Auto",
+          "premiumRange": "$50 - $200/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "alt": "Car on the road",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProduct",
+          "id": "product-life",
+          "title": "Life Insurance",
+          "path": "/products/life-insurance",
+          "body": {
+            "processed": "<p>Give your family the financial security they deserve. Our life insurance options include term and whole life policies designed to fit your budget and provide lasting protection.</p><h2>Policy Types</h2><ul><li>Term life insurance (10, 20, or 30 year terms)</li><li>Whole life insurance with cash value</li><li>Universal life insurance with flexible premiums</li><li>Final expense coverage</li></ul><h2>Why Life Insurance Matters</h2><p>Life insurance replaces lost income, covers debts, funds education, and gives your family time to grieve without financial worry.</p>",
+            "summary": "Give your family the financial security they deserve. Our life insurance options include term and whole life policies designed to fit your budget and provide lasting protection.Policy TypesTerm life i"
+          },
+          "coverageType": "Life",
+          "premiumRange": "$25 - $150/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+            "alt": "Happy family together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProduct",
+          "id": "product-business",
+          "title": "Business Insurance",
+          "path": "/products/business-insurance",
+          "body": {
+            "processed": "<p>Protect your business from the unexpected with our comprehensive commercial insurance packages. We tailor coverage to your industry and unique risks.</p><h2>Coverage Types</h2><ul><li>General liability insurance</li><li>Commercial property insurance</li><li>Workers' compensation</li><li>Professional liability (E&O)</li><li>Commercial auto insurance</li><li>Business interruption coverage</li></ul><h2>Industry Expertise</h2><p>We work with contractors, restaurants, retail shops, tech companies, and professional services firms to build the right coverage package.</p>",
+            "summary": "Protect your business from the unexpected with our comprehensive commercial insurance packages. We tailor coverage to your industry and unique risks.Coverage TypesGeneral liability insuranceCommercial"
+          },
+          "coverageType": "Commercial",
+          "premiumRange": "$100 - $500/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+            "alt": "Modern office building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

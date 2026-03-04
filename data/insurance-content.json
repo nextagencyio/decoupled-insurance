@@ -1,0 +1,217 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, statistics, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string", "description": "Main headline in the hero section" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string", "description": "Secondary text below the hero title" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text", "description": "Longer descriptive text for the hero section" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]", "description": "Key metrics and statistics" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string", "description": "Heading for the featured products section" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "product",
+      "label": "Product",
+      "description": "Insurance products and coverage plans",
+      "body": true,
+      "fields": [
+        { "id": "coverage_type", "label": "Coverage Type", "type": "string", "description": "Type of insurance coverage" },
+        { "id": "premium_range", "label": "Premium Range", "type": "string", "description": "Monthly premium price range" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Main image for the product" }
+      ]
+    },
+    {
+      "bundle": "team_member",
+      "label": "Team Member",
+      "description": "Insurance agents and staff members",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position", "type": "string", "description": "Job title or role" },
+        { "id": "email", "label": "Email", "type": "string", "description": "Professional email address" },
+        { "id": "phone", "label": "Phone", "type": "string", "description": "Contact phone number" },
+        { "id": "photo", "label": "Photo", "type": "image", "description": "Professional headshot" }
+      ]
+    },
+    {
+      "bundle": "resource",
+      "label": "Resource",
+      "description": "Educational articles and insurance guides",
+      "body": true,
+      "fields": [
+        { "id": "resource_category", "label": "Resource Category", "type": "string", "description": "Category for the resource" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Main image for the resource" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "Individual statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "Statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "Statistic label" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-1", "type": "paragraph.stat_item",
+      "values": { "number": "50,000+", "label": "Policyholders" }
+    },
+    {
+      "id": "stat-2", "type": "paragraph.stat_item",
+      "values": { "number": "97%", "label": "Claims Satisfaction" }
+    },
+    {
+      "id": "stat-3", "type": "paragraph.stat_item",
+      "values": { "number": "24/7", "label": "Claims Support" }
+    },
+    {
+      "id": "stat-4", "type": "paragraph.stat_item",
+      "values": { "number": "30+", "label": "Years Serving Families" }
+    },
+    {
+      "id": "homepage", "type": "node.homepage", "path": "/homepage",
+      "values": {
+        "title": "Ironclad Insurance Group Homepage",
+        "hero_title": "Coverage You Can Trust",
+        "hero_subtitle": "Ironclad Insurance Group",
+        "hero_description": "<p>From home and auto to life and business, Ironclad Insurance Group provides comprehensive coverage with personalized service and competitive rates. We protect what matters most to you.</p>",
+        "stats_items": ["@stat-1", "@stat-2", "@stat-3", "@stat-4"],
+        "featured_items_title": "Our Coverage Options",
+        "cta_title": "Get Your Free Quote Today",
+        "cta_description": "<p>Our licensed agents will review your needs and find the right coverage at the best price. No obligation, no pressure - just honest advice.</p>",
+        "cta_primary": "Get a Quote",
+        "cta_secondary": "Our Products"
+      }
+    },
+    {
+      "id": "product-home", "type": "node.product", "path": "/products/homeowners-insurance",
+      "values": {
+        "title": "Homeowners Insurance",
+        "body": "<p>Protect your biggest investment with our comprehensive homeowners insurance. Our policies cover your dwelling, personal property, liability, and additional living expenses if your home becomes uninhabitable.</p><h2>Coverage Includes</h2><ul><li>Dwelling protection for your home's structure</li><li>Personal property coverage for belongings</li><li>Liability protection if someone is injured on your property</li><li>Additional living expenses during repairs</li><li>Optional flood and earthquake riders</li></ul><h2>Discounts Available</h2><p>Bundle with auto insurance, install security systems, or maintain a claims-free record to save on your premium.</p>",
+        "coverage_type": "Property",
+        "premium_range": "$75 - $250/month",
+        "image": { "uri": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80", "alt": "Beautiful home exterior", "title": "Homeowners Insurance" }
+      }
+    },
+    {
+      "id": "product-auto", "type": "node.product", "path": "/products/auto-insurance",
+      "values": {
+        "title": "Auto Insurance",
+        "body": "<p>Get the auto coverage you need at a price you can afford. Our auto insurance policies provide comprehensive protection for your vehicle, whether you are commuting, traveling, or running errands.</p><h2>Coverage Options</h2><ul><li>Liability coverage (bodily injury and property damage)</li><li>Collision coverage</li><li>Comprehensive coverage (theft, weather, vandalism)</li><li>Uninsured/underinsured motorist protection</li><li>Roadside assistance and rental car reimbursement</li></ul><h2>Save More</h2><p>Good driver discounts, multi-vehicle savings, and bundling options help keep your rates low.</p>",
+        "coverage_type": "Auto",
+        "premium_range": "$50 - $200/month",
+        "image": { "uri": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80", "alt": "Car on the road", "title": "Auto Insurance" }
+      }
+    },
+    {
+      "id": "product-life", "type": "node.product", "path": "/products/life-insurance",
+      "values": {
+        "title": "Life Insurance",
+        "body": "<p>Give your family the financial security they deserve. Our life insurance options include term and whole life policies designed to fit your budget and provide lasting protection.</p><h2>Policy Types</h2><ul><li>Term life insurance (10, 20, or 30 year terms)</li><li>Whole life insurance with cash value</li><li>Universal life insurance with flexible premiums</li><li>Final expense coverage</li></ul><h2>Why Life Insurance Matters</h2><p>Life insurance replaces lost income, covers debts, funds education, and gives your family time to grieve without financial worry.</p>",
+        "coverage_type": "Life",
+        "premium_range": "$25 - $150/month",
+        "image": { "uri": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80", "alt": "Happy family together", "title": "Life Insurance" }
+      }
+    },
+    {
+      "id": "product-business", "type": "node.product", "path": "/products/business-insurance",
+      "values": {
+        "title": "Business Insurance",
+        "body": "<p>Protect your business from the unexpected with our comprehensive commercial insurance packages. We tailor coverage to your industry and unique risks.</p><h2>Coverage Types</h2><ul><li>General liability insurance</li><li>Commercial property insurance</li><li>Workers' compensation</li><li>Professional liability (E&O)</li><li>Commercial auto insurance</li><li>Business interruption coverage</li></ul><h2>Industry Expertise</h2><p>We work with contractors, restaurants, retail shops, tech companies, and professional services firms to build the right coverage package.</p>",
+        "coverage_type": "Commercial",
+        "premium_range": "$100 - $500/month",
+        "image": { "uri": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80", "alt": "Modern office building", "title": "Business Insurance" }
+      }
+    },
+    {
+      "id": "team-david", "type": "node.team_member", "path": "/team/david-hartwell",
+      "values": {
+        "title": "David Hartwell",
+        "body": "<p>David founded Ironclad Insurance Group with a simple mission: make insurance understandable and affordable for every family. With 30 years in the industry, he leads our team with a client-first philosophy and deep knowledge of the insurance landscape.</p>",
+        "position": "President & Founder",
+        "email": "david@ironcladins.com",
+        "phone": "(555) 345-6789",
+        "photo": { "uri": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80", "alt": "David Hartwell, President", "title": "David Hartwell" }
+      }
+    },
+    {
+      "id": "team-lisa", "type": "node.team_member", "path": "/team/lisa-park",
+      "values": {
+        "title": "Lisa Park",
+        "body": "<p>Lisa manages our claims department, ensuring every client receives prompt, fair service during difficult times. She has processed thousands of claims and knows how to advocate for our clients with carriers.</p>",
+        "position": "Claims Director",
+        "email": "lisa@ironcladins.com",
+        "phone": "(555) 345-6790",
+        "photo": { "uri": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80", "alt": "Lisa Park, Claims Director", "title": "Lisa Park" }
+      }
+    },
+    {
+      "id": "team-marcus", "type": "node.team_member", "path": "/team/marcus-johnson",
+      "values": {
+        "title": "Marcus Johnson",
+        "body": "<p>Marcus specializes in commercial insurance and works closely with business owners to identify risks and build comprehensive coverage packages. His industry knowledge helps clients avoid costly coverage gaps.</p>",
+        "position": "Senior Commercial Agent",
+        "email": "marcus@ironcladins.com",
+        "phone": "(555) 345-6791",
+        "photo": { "uri": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80", "alt": "Marcus Johnson, Senior Agent", "title": "Marcus Johnson" }
+      }
+    },
+    {
+      "id": "resource-home-inventory", "type": "node.resource", "path": "/resources/home-inventory-guide",
+      "values": {
+        "title": "How to Create a Home Inventory",
+        "body": "<p>A home inventory is essential for filing insurance claims accurately and quickly. Follow this guide to document your belongings before disaster strikes.</p><h2>Room-by-Room Approach</h2><ul><li>Photograph or video each room</li><li>Record serial numbers for electronics</li><li>Keep receipts for high-value items</li><li>Store your inventory in the cloud or a safe deposit box</li></ul><p>Update your inventory annually or after major purchases.</p>",
+        "resource_category": "Home Insurance",
+        "image": { "uri": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80", "alt": "Organized home interior", "title": "Home Inventory Guide" }
+      }
+    },
+    {
+      "id": "resource-auto-claims", "type": "node.resource", "path": "/resources/auto-claims-process",
+      "values": {
+        "title": "What to Do After a Car Accident",
+        "body": "<p>Knowing what to do after an accident can make the claims process smoother and protect your rights. Follow these steps immediately after a collision.</p><h2>At the Scene</h2><ul><li>Check for injuries and call 911 if needed</li><li>Exchange information with other drivers</li><li>Take photos of damage and the scene</li><li>Get a police report</li></ul><h2>Filing Your Claim</h2><p>Contact Ironclad within 24 hours. Have your policy number, photos, and the police report ready. We will guide you through every step.</p>",
+        "resource_category": "Auto Insurance",
+        "image": { "uri": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80", "alt": "Car safety concept", "title": "Auto Claims Process" }
+      }
+    },
+    {
+      "id": "resource-life-coverage", "type": "node.resource", "path": "/resources/how-much-life-insurance",
+      "values": {
+        "title": "How Much Life Insurance Do You Need?",
+        "body": "<p>Determining the right amount of life insurance depends on your income, debts, dependents, and financial goals. Here are common approaches to help you decide.</p><h2>The 10x Rule</h2><p>A simple starting point: aim for coverage equal to 10 times your annual income.</p><h2>DIME Method</h2><ul><li><strong>D</strong>ebt - Total outstanding debts</li><li><strong>I</strong>ncome - Years of income to replace</li><li><strong>M</strong>ortgage - Remaining mortgage balance</li><li><strong>E</strong>ducation - Future education costs for children</li></ul><p>Our agents can help you calculate the right amount for your specific situation.</p>",
+        "resource_category": "Life Insurance",
+        "image": { "uri": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80", "alt": "Family financial planning", "title": "Life Insurance Calculator" }
+      }
+    },
+    {
+      "id": "about-page", "type": "node.page", "path": "/about",
+      "values": {
+        "title": "About Ironclad Insurance Group",
+        "body": "<p>Ironclad Insurance Group has been protecting families and businesses since 1995. As an independent insurance agency, we work with multiple carriers to find you the best coverage at the best price.</p><h2>Our Promise</h2><p>We promise to treat you like a neighbor, not a policy number. When you call Ironclad, you speak with a real person who knows your name and your coverage.</p><h2>Our Values</h2><ul><li><strong>Trust</strong> - We build relationships based on honesty and transparency</li><li><strong>Advocacy</strong> - We fight for fair claims settlements on your behalf</li><li><strong>Education</strong> - We help you understand your coverage so you can make informed decisions</li><li><strong>Community</strong> - We give back to the communities we serve</li></ul>"
+      }
+    },
+    {
+      "id": "contact-page", "type": "node.page", "path": "/contact",
+      "values": {
+        "title": "Contact Ironclad Insurance Group",
+        "body": "<p>Ready for a free quote? Have a question about your policy? We are here to help.</p><h2>Office Location</h2><p>Ironclad Insurance Group<br/>789 Protection Blvd, Suite 100<br/>Portland, OR 97201</p><h2>Hours</h2><p>Monday - Friday: 8:30 AM - 5:30 PM<br/>Saturday: 9:00 AM - 12:00 PM<br/>Sunday: Closed</p><h2>Emergency Claims</h2><p>24/7 Claims Hotline: (555) 345-9999</p><h2>General Inquiries</h2><p>Phone: (555) 345-6789<br/>Email: info@ironcladins.com</p>"
+      }
+    }
+  ]
+}

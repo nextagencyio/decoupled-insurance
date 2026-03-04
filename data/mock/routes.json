@@ -1,0 +1,543 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Ironclad Insurance Group Homepage",
+          "path": "/homepage",
+          "heroTitle": "Coverage You Can Trust",
+          "heroSubtitle": "Ironclad Insurance Group",
+          "heroDescription": {
+            "processed": "<p>From home and auto to life and business, Ironclad Insurance Group provides comprehensive coverage with personalized service and competitive rates. We protect what matters most to you.</p>",
+            "summary": "From home and auto to life and business, Ironclad Insurance Group provides comprehensive coverage with personalized service and competitive rates. We protect what matters most to you."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "50,000+",
+              "label": "Policyholders"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "97%",
+              "label": "Claims Satisfaction"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "24/7",
+              "label": "Claims Support"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "30+",
+              "label": "Years Serving Families"
+            }
+          ],
+          "featuredItemsTitle": "Our Coverage Options",
+          "ctaTitle": "Get Your Free Quote Today",
+          "ctaDescription": {
+            "processed": "<p>Our licensed agents will review your needs and find the right coverage at the best price. No obligation, no pressure - just honest advice.</p>",
+            "summary": "Our licensed agents will review your needs and find the right coverage at the best price. No obligation, no pressure - just honest advice."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "Our Products"
+        }
+      }
+    }
+  },
+  "/products/homeowners-insurance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-home",
+          "title": "Homeowners Insurance",
+          "path": "/products/homeowners-insurance",
+          "body": {
+            "processed": "<p>Protect your biggest investment with our comprehensive homeowners insurance. Our policies cover your dwelling, personal property, liability, and additional living expenses if your home becomes uninhabitable.</p><h2>Coverage Includes</h2><ul><li>Dwelling protection for your home's structure</li><li>Personal property coverage for belongings</li><li>Liability protection if someone is injured on your property</li><li>Additional living expenses during repairs</li><li>Optional flood and earthquake riders</li></ul><h2>Discounts Available</h2><p>Bundle with auto insurance, install security systems, or maintain a claims-free record to save on your premium.</p>",
+            "summary": "Protect your biggest investment with our comprehensive homeowners insurance. Our policies cover your dwelling, personal property, liability, and additional living expenses if your home becomes uninhab"
+          },
+          "coverageType": "Property",
+          "premiumRange": "$75 - $250/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Beautiful home exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/products/auto-insurance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-auto",
+          "title": "Auto Insurance",
+          "path": "/products/auto-insurance",
+          "body": {
+            "processed": "<p>Get the auto coverage you need at a price you can afford. Our auto insurance policies provide comprehensive protection for your vehicle, whether you are commuting, traveling, or running errands.</p><h2>Coverage Options</h2><ul><li>Liability coverage (bodily injury and property damage)</li><li>Collision coverage</li><li>Comprehensive coverage (theft, weather, vandalism)</li><li>Uninsured/underinsured motorist protection</li><li>Roadside assistance and rental car reimbursement</li></ul><h2>Save More</h2><p>Good driver discounts, multi-vehicle savings, and bundling options help keep your rates low.</p>",
+            "summary": "Get the auto coverage you need at a price you can afford. Our auto insurance policies provide comprehensive protection for your vehicle, whether you are commuting, traveling, or running errands.Covera"
+          },
+          "coverageType": "Auto",
+          "premiumRange": "$50 - $200/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "alt": "Car on the road",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/products/life-insurance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-life",
+          "title": "Life Insurance",
+          "path": "/products/life-insurance",
+          "body": {
+            "processed": "<p>Give your family the financial security they deserve. Our life insurance options include term and whole life policies designed to fit your budget and provide lasting protection.</p><h2>Policy Types</h2><ul><li>Term life insurance (10, 20, or 30 year terms)</li><li>Whole life insurance with cash value</li><li>Universal life insurance with flexible premiums</li><li>Final expense coverage</li></ul><h2>Why Life Insurance Matters</h2><p>Life insurance replaces lost income, covers debts, funds education, and gives your family time to grieve without financial worry.</p>",
+            "summary": "Give your family the financial security they deserve. Our life insurance options include term and whole life policies designed to fit your budget and provide lasting protection.Policy TypesTerm life i"
+          },
+          "coverageType": "Life",
+          "premiumRange": "$25 - $150/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+            "alt": "Happy family together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/products/business-insurance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProduct",
+          "id": "product-business",
+          "title": "Business Insurance",
+          "path": "/products/business-insurance",
+          "body": {
+            "processed": "<p>Protect your business from the unexpected with our comprehensive commercial insurance packages. We tailor coverage to your industry and unique risks.</p><h2>Coverage Types</h2><ul><li>General liability insurance</li><li>Commercial property insurance</li><li>Workers' compensation</li><li>Professional liability (E&O)</li><li>Commercial auto insurance</li><li>Business interruption coverage</li></ul><h2>Industry Expertise</h2><p>We work with contractors, restaurants, retail shops, tech companies, and professional services firms to build the right coverage package.</p>",
+            "summary": "Protect your business from the unexpected with our comprehensive commercial insurance packages. We tailor coverage to your industry and unique risks.Coverage TypesGeneral liability insuranceCommercial"
+          },
+          "coverageType": "Commercial",
+          "premiumRange": "$100 - $500/month",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+            "alt": "Modern office building",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/david-hartwell": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-david",
+          "title": "David Hartwell",
+          "path": "/team/david-hartwell",
+          "body": {
+            "processed": "<p>David founded Ironclad Insurance Group with a simple mission: make insurance understandable and affordable for every family. With 30 years in the industry, he leads our team with a client-first philosophy and deep knowledge of the insurance landscape.</p>",
+            "summary": "David founded Ironclad Insurance Group with a simple mission: make insurance understandable and affordable for every family. With 30 years in the industry, he leads our team with a client-first philos"
+          },
+          "position": "President & Founder",
+          "email": "david@ironcladins.com",
+          "phone": "(555) 345-6789",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+            "alt": "David Hartwell, President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/lisa-park": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-lisa",
+          "title": "Lisa Park",
+          "path": "/team/lisa-park",
+          "body": {
+            "processed": "<p>Lisa manages our claims department, ensuring every client receives prompt, fair service during difficult times. She has processed thousands of claims and knows how to advocate for our clients with carriers.</p>",
+            "summary": "Lisa manages our claims department, ensuring every client receives prompt, fair service during difficult times. She has processed thousands of claims and knows how to advocate for our clients with car"
+          },
+          "position": "Claims Director",
+          "email": "lisa@ironcladins.com",
+          "phone": "(555) 345-6790",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+            "alt": "Lisa Park, Claims Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/marcus-johnson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Johnson",
+          "path": "/team/marcus-johnson",
+          "body": {
+            "processed": "<p>Marcus specializes in commercial insurance and works closely with business owners to identify risks and build comprehensive coverage packages. His industry knowledge helps clients avoid costly coverage gaps.</p>",
+            "summary": "Marcus specializes in commercial insurance and works closely with business owners to identify risks and build comprehensive coverage packages. His industry knowledge helps clients avoid costly coverag"
+          },
+          "position": "Senior Commercial Agent",
+          "email": "marcus@ironcladins.com",
+          "phone": "(555) 345-6791",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+            "alt": "Marcus Johnson, Senior Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/resources/home-inventory-guide": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResource",
+          "id": "resource-home-inventory",
+          "title": "How to Create a Home Inventory",
+          "path": "/resources/home-inventory-guide",
+          "body": {
+            "processed": "<p>A home inventory is essential for filing insurance claims accurately and quickly. Follow this guide to document your belongings before disaster strikes.</p><h2>Room-by-Room Approach</h2><ul><li>Photograph or video each room</li><li>Record serial numbers for electronics</li><li>Keep receipts for high-value items</li><li>Store your inventory in the cloud or a safe deposit box</li></ul><p>Update your inventory annually or after major purchases.</p>",
+            "summary": "A home inventory is essential for filing insurance claims accurately and quickly. Follow this guide to document your belongings before disaster strikes.Room-by-Room ApproachPhotograph or video each ro"
+          },
+          "resourceCategory": "Home Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80",
+            "alt": "Organized home interior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/resources/auto-claims-process": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResource",
+          "id": "resource-auto-claims",
+          "title": "What to Do After a Car Accident",
+          "path": "/resources/auto-claims-process",
+          "body": {
+            "processed": "<p>Knowing what to do after an accident can make the claims process smoother and protect your rights. Follow these steps immediately after a collision.</p><h2>At the Scene</h2><ul><li>Check for injuries and call 911 if needed</li><li>Exchange information with other drivers</li><li>Take photos of damage and the scene</li><li>Get a police report</li></ul><h2>Filing Your Claim</h2><p>Contact Ironclad within 24 hours. Have your policy number, photos, and the police report ready. We will guide you through every step.</p>",
+            "summary": "Knowing what to do after an accident can make the claims process smoother and protect your rights. Follow these steps immediately after a collision.At the SceneCheck for injuries and call 911 if neede"
+          },
+          "resourceCategory": "Auto Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Car safety concept",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/resources/how-much-life-insurance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResource",
+          "id": "resource-life-coverage",
+          "title": "How Much Life Insurance Do You Need?",
+          "path": "/resources/how-much-life-insurance",
+          "body": {
+            "processed": "<p>Determining the right amount of life insurance depends on your income, debts, dependents, and financial goals. Here are common approaches to help you decide.</p><h2>The 10x Rule</h2><p>A simple starting point: aim for coverage equal to 10 times your annual income.</p><h2>DIME Method</h2><ul><li><strong>D</strong>ebt - Total outstanding debts</li><li><strong>I</strong>ncome - Years of income to replace</li><li><strong>M</strong>ortgage - Remaining mortgage balance</li><li><strong>E</strong>ducation - Future education costs for children</li></ul><p>Our agents can help you calculate the right amount for your specific situation.</p>",
+            "summary": "Determining the right amount of life insurance depends on your income, debts, dependents, and financial goals. Here are common approaches to help you decide.The 10x RuleA simple starting point: aim fo"
+          },
+          "resourceCategory": "Life Insurance",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Family financial planning",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Ironclad Insurance Group",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Ironclad Insurance Group has been protecting families and businesses since 1995. As an independent insurance agency, we work with multiple carriers to find you the best coverage at the best price.</p><h2>Our Promise</h2><p>We promise to treat you like a neighbor, not a policy number. When you call Ironclad, you speak with a real person who knows your name and your coverage.</p><h2>Our Values</h2><ul><li><strong>Trust</strong> - We build relationships based on honesty and transparency</li><li><strong>Advocacy</strong> - We fight for fair claims settlements on your behalf</li><li><strong>Education</strong> - We help you understand your coverage so you can make informed decisions</li><li><strong>Community</strong> - We give back to the communities we serve</li></ul>",
+            "summary": "Ironclad Insurance Group has been protecting families and businesses since 1995. As an independent insurance agency, we work with multiple carriers to find you the best coverage at the best price.Our "
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Ironclad Insurance Group",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>Ready for a free quote? Have a question about your policy? We are here to help.</p><h2>Office Location</h2><p>Ironclad Insurance Group<br/>789 Protection Blvd, Suite 100<br/>Portland, OR 97201</p><h2>Hours</h2><p>Monday - Friday: 8:30 AM - 5:30 PM<br/>Saturday: 9:00 AM - 12:00 PM<br/>Sunday: Closed</p><h2>Emergency Claims</h2><p>24/7 Claims Hotline: (555) 345-9999</p><h2>General Inquiries</h2><p>Phone: (555) 345-6789<br/>Email: info@ironcladins.com</p>",
+            "summary": "Ready for a free quote? Have a question about your policy? We are here to help.Office LocationIronclad Insurance Group789 Protection Blvd, Suite 100Portland, OR 97201HoursMonday - Friday: 8:30 AM - 5:"
+          }
+        }
+      }
+    }
+  }
+}
