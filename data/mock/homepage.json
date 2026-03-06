@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-1",
               "title": "",
-              "number": "50,000+",
+              "number": "50,000+", "value": "50,000+",
               "label": "Policyholders"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-2",
               "title": "",
-              "number": "97%",
+              "number": "97%", "value": "97%",
               "label": "Claims Satisfaction"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-3",
               "title": "",
-              "number": "24/7",
+              "number": "24/7", "value": "24/7",
               "label": "Claims Support"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-4",
               "title": "",
-              "number": "30+",
+              "number": "30+", "value": "30+",
               "label": "Years Serving Families"
             }
           ],
